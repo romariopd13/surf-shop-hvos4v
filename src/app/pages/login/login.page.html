@@ -1,4 +1,4 @@
-<ion-content>
+<ion-content class="swiper-no-swiping">
   <div class="container top">
     <img src="/assets/images/logo.png" alt="">
 
@@ -42,7 +42,7 @@
     </ion-slide>
   </ion-slides>
   <div class="ocean">
-    <div class="waves"></div>
+    <div class="waves" [ngStyle]="{'background-position-x' : wavesPosition + 'px'}"></div>
     <div class="container bottom ion-text-center">
       <span>O aplicativo que foi feito para o gerenciamento dos produtos da sua loja de surf!</span>
     </div>
