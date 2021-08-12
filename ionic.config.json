@@ -1,0 +1,8 @@
+{
+  "name": "Surf Shop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "2a98bc21"
+}
