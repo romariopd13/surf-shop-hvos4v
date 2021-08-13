@@ -80,4 +80,7 @@ export class DetailsPage implements OnInit {
       this.product = res
     })
   }
+  ngOnDestroy() {
+    if (this.productsSubscription) this.productsSubscription.unsubscribe();
+  }
 }
