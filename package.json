@@ -16,6 +16,7 @@
     "@angular/common": "~12.1.1",
     "@angular/compiler": "~12.1.1",
     "@angular/core": "~12.1.1",
+    "@angular/fire": "^6.1.5",
     "@angular/forms": "~12.1.1",
     "@angular/platform-browser": "~12.1.1",
     "@angular/platform-browser-dynamic": "~12.1.1",
@@ -28,6 +29,7 @@
     "@ionic-native/keyboard": "^5.35.0",
     "@ionic/angular": "^5.5.2",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
+    "firebase": "^8.9.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
