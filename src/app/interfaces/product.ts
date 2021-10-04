@@ -4,5 +4,6 @@ export interface Product {
     description?: string;
     picture?: string;
     createdAt?: number;
+    price?: string;
     userId?: string;
 }

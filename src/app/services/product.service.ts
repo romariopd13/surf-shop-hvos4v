@@ -7,7 +7,6 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ProductService {
-  // private productsCollection = this.afs.collection<Product>('products')
   private productsCollection: AngularFirestoreCollection<Product>
   constructor(private afs: AngularFirestore) {
     this.productsCollection = this.afs.collection<Product>('Products');
